@@ -1,12 +1,4 @@
 ---
-title: "Stat 101C Kaggle Final"
-author: 'Tom Petty & the Heartbreakers: Tanner McKean, Priyanka Nanayakkara, Vivian
-  Liu; tmckean23@yahoo.com, priyankan@ucla.edu, vivliu027@ucla.edu'
-date: "Spring 2017"
-output:
-  pdf_document: default
-  html_document: default
----
 ```{r, tidy=T}
 library(readr)
 library(xgboost)
