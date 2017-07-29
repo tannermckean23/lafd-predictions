@@ -220,6 +220,7 @@ submit$fill.in <- avg_rf_xgb
 submit$prediction[which(submit$prediction %in% NA)] <- submit$fill.in[which(submit$prediction %in% NA)]
 submit$fill.in <- NULL
 submit$row.id <- as.integer(submit$row.id)
- 
+
+# submission file
 write.csv(submit,"linearmodel_final.csv",row.names=FALSE)
 ``` 
